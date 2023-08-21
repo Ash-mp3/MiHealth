@@ -1,8 +1,9 @@
-* {
+html, body {
     margin: 0;
     padding: 0;
     border: 0;
     background-color: lightgrey;
+
 }
 
 .header {
@@ -13,9 +14,18 @@
 }
 
 .titleLogo {
-   
+   margin-right: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 40px 0 40px 100px;
 }
 .navBar {
     display: flex;
+    margin: 40px 100px;
     
+}
+
+.navItems {
+    margin: 0 20px 0 20px;
+    
+
 }
