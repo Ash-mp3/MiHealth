@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: lightgrey;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.titleLogo {
+   
+}
+.navBar {
+    display: flex;
+    
+}
