@@ -1,7 +1,8 @@
-html, body, h1 {
+html, body, h1, p {
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
     background-color: lightgrey;
     width: 100%;
     height: 100%;
@@ -44,9 +45,16 @@ html, body, h1 {
 .mainDiv {
     display: flex;
     justify-content: center;
-    margin-top: 118px;
-    /* height: 100%; */
+    /* margin-top: -118px; */
+    align-items: center;
+    height: 84%;
 }
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
 
 .divBox {
     width: 20%;
@@ -64,12 +72,13 @@ html, body, h1 {
 }
 
 .article {
-    height: 100%;
+    
     width: 22%;
+    height: auto;
     line-height: 65px;
     font-size: 35px;
     font-family: 'Helvetica Now Display';
-    font-weight: bold;
+    font-weight: 900;
     margin-right: 60px;
 }
 p {
