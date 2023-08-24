@@ -33,37 +33,46 @@ html, body, h1 {
 
 .navBar {
     display: flex;
-    margin: 25px 135px;
+    /* margin: 25px 100px; */
+    width: 29%;
 }
 
 .navItems {
-    margin: 0 35px;
+    margin: 0  10px;
 }
 
 .mainDiv {
     display: flex;
     justify-content: center;
-   
-    margin-top: 115px;
+    margin-top: 118px;
+    /* height: 100%; */
 }
 
 .divBox {
-    width: 365px;
+    width: 20%;
+    height: auto;
     margin-right: 17px;
+}
+.divBox:last-child {
+    margin: 0;
 }
 
 .divBox img {
     object-fit: cover;
     height: 100%;
-    width: 365px;
+    width: 100%;
 }
 
 .article {
     height: 100%;
-    width: 450px;
-    margin-right: 140px;
-    line-height: 75px;
-    font-size: 45px;
-    font-family: Helvetica;
+    width: 22%;
+    line-height: 65px;
+    font-size: 35px;
+    font-family: 'Helvetica Now Display';
     font-weight: bold;
+    margin-right: 60px;
+}
+p {
+    font-size: 20px;
+    line-height: 30px;
 }
