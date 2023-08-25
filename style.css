@@ -33,8 +33,6 @@ html, body, h1, p {
 
 .navBar {
     display: flex;
-    /* margin: 25px 100px; */
-    /* width: 29%; */
     margin: 0 100px;
 }
 
@@ -49,14 +47,13 @@ html, body, h1, p {
     align-items: center;
     height: 84%;
 }
-
-    
-
 .divBox {
     width: 20%;
     height: auto;
     margin-right: 17px;
+    position: relative;
 }
+
 .divBox:last-child {
     margin: 0;
 }
@@ -68,7 +65,6 @@ html, body, h1, p {
 }
 
 .article {
-    
     width: 23%;
     /* height: 65%; */
     line-height: 65px;
@@ -77,7 +73,7 @@ html, body, h1, p {
     font-weight: 900;
     margin-right: 65px;
 }
-p {
+.article p {
     font-size: 20px;
     font-family: helvetica, Arial;
     line-height: 30px;
@@ -88,3 +84,10 @@ h5 {
     font-family: helvetica, Arial;
     font-size: 22px;
 }
+.wordBox {
+    position: relative;
+}
+.wordBox:first-child  {
+    color: rebeccapurple;
+ }
+
