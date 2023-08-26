@@ -67,6 +67,7 @@ body {
     width: 20%;
     height: auto;
     margin-right: 17px;
+    position: relative;
 }
 
 .imgBoxs:last-child {
@@ -78,6 +79,45 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.lilWordBox {
+    /* height: 10%;
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+    line-height: 3;
+    vertical-align: middle;
+    font-weight: bold; */
+    /* display: flex; */
+    
+}
+p[class^="imgTxt"] {
+    height: auto;
+    right: 0px;
+    position: absolute;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 14px 5%;
+}
+.imgTxt1 {
+    width: 40%;
+    bottom: 0px;
+    background-color: #8DC728;
+    position: relative;
+    
+    text-align: end;
+    
+    
+    
+}
+.imgTxt2 {
+    width: auto;
+    bottom: 10%;
+    background-color: white;
+   
+}
+
+
 /* article portion  */
 
 .article {
