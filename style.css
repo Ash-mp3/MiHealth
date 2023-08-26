@@ -7,16 +7,19 @@ p {
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: lightgrey;
     height: 100%;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    background-image: url(images/skyscraper.webp);
+    background-repeat: repeat;
+    background-color: lightgray;
 }
 
 /* Header for the page */
+
 .header {
     display: flex;
     align-items: center;
@@ -46,12 +49,13 @@ body {
 
 .navItems {
     margin: 0 26px;
+    text-decoration: none;
+    color: black;
 }
 
-/* everything below the header */
+/* images and article  boxes*/
 
 .bodyCon {
-
     display: flex;
     align-items: center;
     flex: 1;
@@ -80,43 +84,30 @@ body {
     width: 100%;
 }
 
-.lilWordBox {
-    /* height: 10%;
-    right: 0px;
-    bottom: 0px;
-    position: absolute;
-    line-height: 3;
-    vertical-align: middle;
-    font-weight: bold; */
-    /* display: flex; */
-    
-}
+/* boxes inside the images */
+
 p[class^="imgTxt"] {
     height: auto;
     right: 0px;
     position: absolute;
     vertical-align: middle;
     font-weight: bold;
-    padding: 14px 5%;
+    padding: 15px 5%;
 }
+
 .imgTxt1 {
     width: 40%;
     bottom: 0px;
     background-color: #8DC728;
     position: relative;
-    
     text-align: end;
-    
-    
-    
 }
+
 .imgTxt2 {
     width: auto;
     bottom: 10%;
     background-color: white;
-   
 }
-
 
 /* article portion  */
 
@@ -146,4 +137,8 @@ h5 {
     margin: 0;
     font-family: helvetica, Arial;
     font-size: 22px;
+}
+
+h5, .article p, h1 {
+    background-color: rgba(255, 0, 0, 0);
 }
